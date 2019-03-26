@@ -1,0 +1,19 @@
+{
+  "name": "electrifying-china",
+  "version": "1.0.0",
+  "description": "The platform of the documentary Electrifying China.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deelux/electrifying-china.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deelux/electrifying-china/issues"
+  },
+  "homepage": "https://github.com/Deelux/electrifying-china#readme"
+}
