@@ -2,9 +2,7 @@ import React, { Component } from 'react'
 import Layout from '../components/layout'
 import YouTube from 'react-youtube';
 
-
-class Home extends Component {
-
+class Shanghai extends Component {
   render() {
     const opts = {
       height: '450',
@@ -17,13 +15,12 @@ class Home extends Component {
       <Layout>
         <div className='mt-2 pt-2 container grid-md text-center'>
           <YouTube
-            videoId="etMkzMbT7bE"
+            videoId="G8wxzMiPo0U"
             opts={opts}
             onReady={this._onReady}
           />
-          <div className='mt-2'><a href='/beijing'>WATCH THE FIRST EPISODE</a></div>
         </div>
-      </Layout >
+      </Layout>
     );
   }
   _onReady(event) {
@@ -31,4 +28,5 @@ class Home extends Component {
     event.target.pauseVideo();
   }
 }
-export default Home;
+
+export default Shanghai;
