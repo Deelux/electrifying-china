@@ -10,12 +10,14 @@ class Home extends Component {
       height: '450',
       width: '100%',
       playerVars: {
+        host: 'https://www.youtube.com',
         autoplay: 0
       }
     };
     return (
-      <Layout>
-        <div className='mt-2 pt-2 container grid-md text-center'>
+      <Layout className='container'>
+        <div className='mt-2 text-center'>
+
           <YouTube
             videoId="etMkzMbT7bE"
             opts={opts}
