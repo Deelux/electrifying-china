@@ -90,8 +90,6 @@ const locations = [
 
 class Beijing extends Component {
   render() {
-
-
     const opts = {
       height: '450',
       width: '100%',
@@ -102,7 +100,7 @@ class Beijing extends Component {
     };
     return (
       <Layout className='container'>
-        <div className='mt-2 text-center'>
+        <div className='mt-2 text-center'>master
           <YouTube
             videoId="8HK0MBLLVO8"
             opts={opts}

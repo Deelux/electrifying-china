@@ -17,6 +17,7 @@ class Home extends Component {
     return (
       <Layout className='container'>
         <div className='mt-2 text-center'>
+
           <YouTube
             videoId="etMkzMbT7bE"
             opts={opts}
