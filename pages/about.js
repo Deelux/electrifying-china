@@ -12,8 +12,4 @@ class About extends Component {
   }
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 63d87aa176df65164013eb332951d107743d9588
 export default About;

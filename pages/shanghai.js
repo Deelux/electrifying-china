@@ -78,10 +78,6 @@ class Shanghai extends Component {
       width: '100%',
       playerVars: {
         host: 'https://www.youtube.com',
-<<<<<<< HEAD
-=======
-
->>>>>>> 63d87aa176df65164013eb332951d107743d9588
         autoplay: 0
       }
     };
