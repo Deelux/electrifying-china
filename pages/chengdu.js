@@ -91,6 +91,10 @@ class Chengdu extends Component {
     return (
       <Layout className='container'>
         <div className='mt-2 text-center'>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 63d87aa176df65164013eb332951d107743d9588
           <YouTube
             videoId="LlTVHr4-usg"
             opts={opts}
