@@ -3,21 +3,18 @@ import Head from './head'
 import Nav from './nav'
 
 export default ({ children, settings = {} }) => (
-  <div>
-    <Head title='Homepage Electrifying China' description='The homepage of Electrifying China' url='http://www.electrifyingchina.com'>
+  <div className='mx-2'>
+    <Head title='Electrifying China' description='The homepage of Electrifying China' url='http://www.electrifyingchina.com'>
       <link href="/statics/styles.css" rel="stylesheet" />
     </Head>
     <Nav settings={settings} />
-    <div className='container grid-xl'>
+    <div className='container grid-lg'>
       <div className='columns'>
-        <div className='column'>
-          <div className='col-12'>
-            {children}
-          </div>
+        <div className='column col-12 text-light'>
+          {children}
         </div>
       </div>
     </div>
-
     <style jsx global>{`
       article, aside, footer, header, hgroup, main, nav, section {
         display: block;

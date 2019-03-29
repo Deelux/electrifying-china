@@ -4,8 +4,8 @@ import Link from 'next/link'
 class Nav extends React.Component {
   render() {
     return (
-      <div className='container grid-xl'>
-        <div className='m-2'>
+      <div className='container grid-lg'>
+        <div className='my-2'>
           <header className='navbar'>
             <section className='navbar-section'>
               <Link href='/'>
@@ -42,6 +42,10 @@ class Nav extends React.Component {
           }
           a:hover {
           color: white !important;
+          }
+          .navbar{
+            border-bottom: 1px solid #ed2156;
+            margin: 15px 0 15px 0;
           }
         `}</style>
         </div>

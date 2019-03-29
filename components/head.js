@@ -11,7 +11,9 @@ const Head = props => (
       name='description'
       content={props.description || defaultDescription}
     />
+    <meta name="description" content="A musical journey through China." />
     <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <link rel="shortcut icon" type="image/png" href="static/favicon.png" sizes="16x16 32x32 64x64" />
     <meta property='og:url' content={props.url || defaultOGURL} />
     <meta property='og:title' content={props.title || ''} />
     <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css" />
