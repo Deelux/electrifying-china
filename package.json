@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "heroku-postbuild": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -20,9 +22,11 @@
   },
   "homepage": "https://github.com/Deelux/electrifying-china#readme",
   "dependencies": {
-    "next": "^8.0.3",
-    "react": "^16.8.5",
-    "react-dom": "^16.8.5",
+    "heroku": "^7.22.7",
+    "next": "^8.0.4",
+    "preact": "^8.4.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-youtube": "^7.9.0",
     "spectre.css": "^0.5.8"
   },
