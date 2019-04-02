@@ -22,8 +22,16 @@ class Home extends Component {
             opts={opts}
             onReady={this._onReady}
           />
-          <div className='mt-2'><a href='/beijing'>WATCH THE FIRST EPISODE</a></div>
+          <div className='mt-2'><a className='watch-button' href='/beijing'>WATCH THE FIRST EPISODE</a></div>
         </div>
+        <style jsx>{`
+        .watch-button{
+          color: #ed2156;
+        }
+        .watch-button:hover{
+        color: white;
+        }
+        `}</style>
       </Layout >
     );
   }
