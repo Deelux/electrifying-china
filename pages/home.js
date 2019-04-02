@@ -7,7 +7,7 @@ class Home extends Component {
 
   render() {
     const opts = {
-      height: '450',
+      height: '500',
       width: '100%',
       playerVars: {
         host: 'https://www.youtube.com',

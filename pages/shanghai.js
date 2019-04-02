@@ -7,8 +7,8 @@ const people = [
     name: 'Rainbow Gou',
     genre: 'Techno/House',
     bio: 'Head-honcho of The Mansion in Shanghai.',
-    link: 'https://soundcloud.com/djgigilee',
-    image: 'static/gigi_lee.jpg'
+    link: '#',
+    image: 'static/rainbow_gao.jpg'
   },
   {
     name: 'Gigi Lee',
@@ -50,24 +50,24 @@ const people = [
     genre: 'Techno/House',
     bio: 'Former head-honcho of The Mansion Shanghai, DJ and owner of Ying-Yang music festival. Recently moved back to Amsterdam.',
     link: 'https://soundcloud.com/tommyhendriks',
-    image: 'static/gigi_lee.jpg'
+    image: 'static/tommy_hendriks.jpg'
   }
 ]
 
 const locations = [
   {
     name: 'Shelter (Club All)',
-    genre: 'Techno/House',
-    bio: "DJ from Beijing, famous for his gigs at the Great Wall Parties in the 90's",
+    genre: 'Drum n Base/Electro/Hip Hop',
+    bio: "A converted bomb shelter, the club is dark, sweaty, black, loud, and thumping.",
     link: 'https://www.residentadvisor.net/club.aspx?id=137029',
-    image: 'static/lantern.jpg'
+    image: 'static/the_shelter.jpg'
   },
   {
     name: 'The Mansion',
     genre: 'Techno/House',
-    bio: "DJ from Beijing, famous for his gigs at the Great Wall Parties in the 90's",
+    bio: "A villa transformed into one of the coolest underground clubs in Shanghai.",
     link: 'http://www.smartshanghai.com/venue/8651/the_mansion',
-    image: 'static/dada.jpg'
+    image: 'static/the_mansion.jpg'
   }
 ]
 

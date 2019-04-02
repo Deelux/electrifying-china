@@ -57,24 +57,24 @@ const people = [
 const locations = [
   {
     name: 'Soul Kitchen',
-    genre: 'Techno/House',
-    bio: "DJ from Beijing, famous for his gigs at the Great Wall Parties in the 90's",
+    genre: 'Disco/Techno/Funk',
+    bio: "",
     link: 'https://www.facebook.com/soulkitchenchengdu/',
-    image: 'static/lantern.jpg'
+    image: 'static/soul_kitchen.jpg'
   },
   {
     name: 'Nuts Live House',
-    genre: 'Techno/House',
-    bio: "DJ from Beijing, famous for his gigs at the Great Wall Parties in the 90's",
+    genre: 'Live music',
+    bio: "Live House in Chongqing with live bands, singer-songwriters, djs and other artists.",
     link: 'https://www.residentadvisor.net/club.aspx?id=103927',
     image: 'static/nuts_live_house.jpg'
   },
   {
     name: 'Dumpling Chill',
     genre: 'Techno/House',
-    bio: "DJ from Beijing, famous for his gigs at the Great Wall Parties in the 90's",
+    bio: "Cosy restaurant near the water where the first underground parties were organised.",
     link: 'https://www.residentadvisor.net/club.aspx?id=103927',
-    image: 'static/lantern.jpg'
+    image: 'static/dumpling_chill.jpg'
   }
 ]
 
@@ -97,7 +97,7 @@ class Chengdu extends Component {
             onReady={this._onReady}
           />
         </div>
-        <div className='sub-heading h2'>People of Chengdu</div>
+        <div className='sub-heading h2'>People of Chengdu & Chongqing</div>
         <div className='columns'>
           {people.map(({ name, genre, bio, link, image }, key) => (
             <div key={key} className='column col-4 col-md-6 col-sm-12 artist-block'>
