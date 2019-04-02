@@ -58,7 +58,7 @@ const locations = [
   {
     name: 'Soul Kitchen',
     genre: 'Disco/Techno/Funk',
-    bio: "",
+    bio: "A healthy restaurant in Chengdu with a deep love for funky music.",
     link: 'https://www.facebook.com/soulkitchenchengdu/',
     image: 'static/soul_kitchen.jpg'
   },
