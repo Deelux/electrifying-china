@@ -101,7 +101,7 @@ class Beijing extends Component {
     };
     return (
       <Layout className='container'>
-        <div className='mt-2 text-center'>master
+        <div className='mt-2 text-center'>
           <YouTube
             videoId="8HK0MBLLVO8"
             opts={opts}
