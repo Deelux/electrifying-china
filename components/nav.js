@@ -14,9 +14,6 @@ class Nav extends React.Component {
               <Link href='/about'>
                 <a className='p-2'>About</a>
               </Link>
-              <Link href='/contact'>
-                <a className='p-2'>Contact</a>
-              </Link>
             </section>
             <section className='navbar-center'>
               <a href='/' className='navbar-brand'><img className='logo m-2' src='https://i.ibb.co/v1FhTpd/Electrifying-China-logo.png' alt='Electrifying-China-logo' border='0' /></a>
