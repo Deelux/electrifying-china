@@ -8,7 +8,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "heroku-postbuild": "npm run build",
+    "heroku-postbuild": "heroku-nextjs-build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
