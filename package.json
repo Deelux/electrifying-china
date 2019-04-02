@@ -7,9 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "heroku-postbuild": "heroku-nextjs-build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prestart": "next build",
+    "start": "next start -p ${PORT}",
   },
   "repository": {
     "type": "git",
