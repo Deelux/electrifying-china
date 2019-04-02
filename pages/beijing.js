@@ -91,7 +91,6 @@ const locations = [
 class Beijing extends Component {
   render() {
 
-
     const opts = {
       height: '450',
       width: '100%',
